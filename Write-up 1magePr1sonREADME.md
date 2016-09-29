@@ -1,4 +1,4 @@
-# Write-up 1mageP1son (Mozambique) - H4CKIT CTF 2016
+# Write-up 1magePr1son (Mozambique) - H4CKIT CTF 2016
 
 Challenge text: <br/>
 Implementing of the latest encryption system as always brought a set of problems for one of the known FSI services: they have lost the module which is responsible for deconding information.
