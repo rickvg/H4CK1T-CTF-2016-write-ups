@@ -1,9 +1,9 @@
 #Write-up Crypt0P1xels (Algeria) - H4CK1T CTF 2016
 
-Challenge text:
+Challenge text:<br/>
 We have received pictures from the enemy companion of the unknown before planet. And we haven't thought up anything better, than to construct DeathStarV3 (the general was a fan of "Star Wars") and to absorb energy of the whole planet! And again we are pursued by problems: that we don't know coordinate! Your task is to determine coordinates of this unique planet (which according to our spy are ciphered in the image). Also he could steal one of the scripts intended for embedding of coordinates. All hope only for you!
 
-The following file is attached to this challenge:
+The following file is attached to this challenge:<br/>
 *CryptoPixels_473e51e6e53cfc47b8f87b8a65a8d542.zip
 
 This ZIP-file contains files: encrypted.png and SECRET_TOOL.py. The Python-script SECRET_TOOL.py is used to encrypt the stego-data into the PNG file.
