@@ -5,7 +5,7 @@ Implementing of the latest encryption system as always brought a set of problems
 And some information has already been ciphered! Your task for today: to define a cryptoalgorithm and decode the message.
 
 In this challenge you receive a PNG-file called space.png. The image is shown below:
-*IMAGE*
+<img src="https://github.com/rickvg/H4CK1T-CTF-2016-write-ups/blob/master/Write-up-1magePr1son/planet.png"</img>
 
 When examining the file, you can see pixels in the left side of the image which are coloured differently than the rest of the image.
 There seems to be a pattern in it as the distance between those pixel is the same. This could possibly be our Stego message!
@@ -20,7 +20,7 @@ This script can be found in this repository.
 Note: The new image has a size of 64x64 pixels as 1512 / 24 + 1 (including last one) = 64. We have collected 64 pixels, so the resulting image will have this size.
 
 Result image:
-*IMAGE*
+<img src="https://github.com/rickvg/H4CK1T-CTF-2016-write-ups/blob/master/Write-up-1magePr1son/output.png"</img>
 
 The resulting image contains the visual flag:
 > `h4ck1t{SPACE_IS_THE_KEY}`
