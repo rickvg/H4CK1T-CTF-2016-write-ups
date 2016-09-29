@@ -19,7 +19,7 @@ I ran the following command to execute Vinetto:
 
 This resulted in the following output:
 
->` Root Entry modify timestamp : Tue Sep 20 20:15:34 2016 <br/>
+> Root Entry modify timestamp : Tue Sep 20 20:15:34 2016 <br/>
 ><br/>
 > ------------------------------------------------------ <br/>
 > <br/>
@@ -28,7 +28,7 @@ This resulted in the following output:
 > 0003   Tue Sep 20 13:51:16 2016   1409560635-3a78363c4eb9dc3a7719e6c075b46607.png <br/>
 > 0004   Tue Sep 20 13:49:34 2016   625.jpg <br/>
 > 0005   Tue Sep 20 13:50:58 2016   193765_original.jpg <br/>
-> 0006   Tue Sep 20 13:58:50 2016   h4ck1t{75943a3ca2223076e997fe30e17597d4}.jpg <br/> `
+> 0006   Tue Sep 20 13:58:50 2016   h4ck1t{75943a3ca2223076e997fe30e17597d4}.jpg <br/> 
 
 The name of the last file is the flag:
 > `h4ck1t{75943a3ca2223076e997fe30e17597d4}`
