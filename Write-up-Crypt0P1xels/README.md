@@ -8,6 +8,9 @@ The following file is attached to this challenge:<br/>
 
 This ZIP-file contains files: encrypted.png and SECRET_TOOL.py. The Python-script SECRET_TOOL.py is used to encrypt the stego-data into the PNG file.
 
+The image:
+<img src="https://github.com/rickvg/H4CK1T-CTF-2016-write-ups/blob/master/Write-up-Crypt0P1xels/encrypted.png"</img>
+
 The functions of script "SECRET_TOOL.py":
 * Opens an image: "original.png"  and converts it to RGB data;
 * Calculates random integers x and y between 1 and 255;
@@ -25,7 +28,7 @@ The functions of the script are:
 * Append all found characters to a string and eventually, after variable i reached the value of flaglength, print the actual string.
 
 The string is:
-> 1NF0RM$T10N_1$_N0T_$3CUR3_4NYM0R3
+> `1NF0RM$T10N_1$_N0T_$3CUR3_4NYM0R3`
 
 The flag is:
-> h4ck1t{1NF0RM$T10N_1$_N0T_$3CUR3_4NYM0R3}
+> `h4ck1t{1NF0RM$T10N_1$_N0T_$3CUR3_4NYM0R3}`
