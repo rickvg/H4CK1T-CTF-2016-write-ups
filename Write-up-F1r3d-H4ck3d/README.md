@@ -3,15 +3,14 @@
 Challenge text:
 One fine day the war began and all the businesses in the country were stopped. Many companies have laid off their employees and dissolved entire departments. But $
 
-In this challenge, you receive a ZIP-file named: "FiredAndHackedNew.zip".
-This file contains multiple files and folders, like DOC-files, RTF-files, JPG-files, PCAP-files and binaries.
+In this challenge, you receive a ZIP-file named: "FiredAndHackedNew.zip". As the file is too big, I can not add the complete file to this repository. This file contains multiple files and folders, like DOC-files, RTF-files, JPG-files, PCAP-files and binaries.
 
 In this challenge there are three types of files, which are interesting: The RTF-file (images.rtf), PNG-file (work.png) and the PCAP-files in folder "1".
 The RTF-file contains a URL to a TXT-file on the internet, which appears to look like a dictionary. I have attached this file to the repository as "dict.txt".
 
 The PNG-file shows an image of three networks, where two networks have special SSIDs: FLAGPART1 & FLAGPART2.
 FLAGPART1 has MAC-address 5C:4C:A9:AE:2D:A1 and FLAGPART2 has MAC-address 20:7C:8F:9A:1E:A3.
-*IMAGE*
+<img src="https://github.com/rickvg/H4CK1T-CTF-2016-write-ups/blob/master/Write-up-F1r3d-H4ck3d/work.png?raw=true"</img>
 
 The image hints towards the available PCAP-files. The PCAP-files contain 802.11 packets, where the data is (unless I have the key/password) encrypted using WPA an$
 I downloaded and installed Aircrack-ng and moved all PCAP-files to one folder and renamed the files to out[number].pcap. After extracting the aircrack-ng file, a $
