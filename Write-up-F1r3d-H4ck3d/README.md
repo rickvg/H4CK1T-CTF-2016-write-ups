@@ -9,7 +9,7 @@ In this challenge there are three types of files, which are interesting: The RTF
 The RTF-file contains a URL to a TXT-file on the internet, which appears to look like a dictionary. I have attached this file to the repository as "dict.txt".
 
 The PNG-file shows an image of three networks, where two networks have special SSIDs: FLAGPART1 & FLAGPART2.
-FLAGPART1 has MAC-address 5C:4C:A9:AE:2D:A1 and FLAGPART2 has MAC-address 20:7C:8F:9A:1E:A3.
+FLAGPART1 has MAC-address 5C:4C:A9:AE:2D:A1 and FLAGPART2 has MAC-address 20:7C:8F:9A:1E:A3.<br/>
 <img src="https://github.com/rickvg/H4CK1T-CTF-2016-write-ups/blob/master/Write-up-F1r3d-H4ck3d/work.png?raw=true"</img>
 
 The image hints towards the available PCAP-files. The PCAP-files contain 802.11 packets, where the data is (unless I have the key/password) encrypted using WPA an$
