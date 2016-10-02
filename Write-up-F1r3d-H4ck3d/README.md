@@ -41,7 +41,7 @@ Results:
 After finding the key, I decrypted the WEP packets.
 
 Decrypt WEP-pcap:
-airdecap-ng -b 5C:4C:A9:AE:2D:A1 -w 1825396740 out10.pcap
+>airdecap-ng -b 5C:4C:A9:AE:2D:A1 -w 1825396740 out[number].pcap
 
 To find the WPA-key, I ran the following command:
 
@@ -62,8 +62,8 @@ Results:
 >      EAPOL HMAC     : B7 C8 3F AD 4B 64 93 C2 25 19 60 19 3A 5C FB 45 <br/>
 
 
-Decrypt WPA:
->airdecap-ng -b 20:7C:8F:9A:1E:A3 -e FLAGPART2 -p 4kymmenkertaistuvan out1.pcap
+Decrypt WPA PCAP:
+>airdecap-ng -b 20:7C:8F:9A:1E:A3 -e FLAGPART2 -p 4kymmenkertaistuvan out[number].pcap
 
 None of the decrypted PCAP-files contained interesting information, so I figured the flag is part1 key + part2 key.
 > h4ck1t{18253967404kymmenkertaistuvan}
